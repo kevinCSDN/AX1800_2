@@ -13,5 +13,5 @@
 # Uncomment a feed source
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small1 https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git Lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
