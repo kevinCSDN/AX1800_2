@@ -11,6 +11,7 @@
 
 
 # Uncomment a feed source
-sed -i '$a src-git nuexini https://github.com/NueXini/NueXini_Package' feeds.conf.default
+# sed -i '$a src-git nuexini https://github.com/NueXini/NueXini_Package' feeds.conf.default
+echo 'src-git helloworld https://github.com/NueXini/NueXini_Packages/luci-app-xunlei' >>feeds.conf.default
 sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
