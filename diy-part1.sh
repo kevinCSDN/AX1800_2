@@ -13,6 +13,7 @@
 # Uncomment a feed source
 # git clone https://github.com/gngpp/luci-theme-design.git package/luci-theme-design
 # sed -i '$a src-git nuexini https://github.com/NueXini/NueXini_Package' feeds.conf.default
- git clone https://github.com/NueXini/NueXini_Packages/luci-app-xunlei.git package/luci-app-xunlei
+# 样板 svn export https://github.com/haiibo/packages/trunk/luci-app-vssr package/luci-app-vssr
+svn export https://github.com/NueXini/NueXini_Packages/trunk/luci-app-xunlei package/luci-app-xunlei
  sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
